@@ -1,0 +1,36 @@
+### Compiled files
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+### IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+
+### Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+### Logs
+*.log
+
+### OS
+.DS_Store
+Thumbs.db
+
+### Application properties with secrets
+application-local.properties
+application-prod.properties
+
+### Docker
+docker-compose.override.yml
